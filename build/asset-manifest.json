@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/project-road-map/static/css/main.aab0cd2d.css",
+    "main.js": "/project-road-map/static/js/main.636899f6.js",
+    "index.html": "/project-road-map/index.html",
+    "main.aab0cd2d.css.map": "/project-road-map/static/css/main.aab0cd2d.css.map",
+    "main.636899f6.js.map": "/project-road-map/static/js/main.636899f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aab0cd2d.css",
+    "static/js/main.636899f6.js"
+  ]
+}
