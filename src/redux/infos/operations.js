@@ -4,7 +4,8 @@ import { toast } from 'react-toastify';
 import {fetchData} from '../../frontend/utils/IndexedDB'
 
 export const roadApi = axios.create({
-  baseURL: 'http://localhost:3030/api',
+  // baseURL: 'http://localhost:3030/api',
+  baseURL: 'https://road-map.b.goit.study/api',
   headers: {
     'Content-Type': 'application/json',
   },

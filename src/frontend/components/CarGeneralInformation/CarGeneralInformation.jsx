@@ -17,7 +17,6 @@ import {
 } from '../CarWorkingInfo/CarWorkingInfo.styled';
 
 import {
-  GlobalStyle,
   MainContainer,
   PaperSection,
   VerticalContainer,
@@ -61,6 +60,7 @@ const CarGeneralInformation = () => {
 
   const firstTableMarkup = [];
   const pmmMarkup = [];
+  // eslint-disable-next-line
   const [duplicated, setDuplicated] = useState(1);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFuelExpensesModalOpen, setIsFuelExpensesModalOpen] = useState(false);

@@ -232,6 +232,7 @@ export default function Modal({
     // if (mainForm?.supervisor?.name) {
     //   seniorTechUnitOptions.map(seniorCarOptions.find(item => item.label === mainForm?.supervisor?.name))
     // }
+    // eslint-disable-next-line
   }, [])
   return (
     <OverlayStyle onClick={e => handleBackdropClick(e)}>

@@ -7,8 +7,8 @@ import CarGeneralInformation from './CarGeneralInformation/CarGeneralInformation
 import { Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import {fetchInfosThunk, fetchInfosThunkDB} from 'redux/infos/operations';
-import  { createGlobalStyle } from 'styled-components'
+import { fetchInfosThunk } from 'redux/infos/operations';
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   @media print {
@@ -37,7 +37,7 @@ export const App = () => {
   // }, []);
   return (
     <>
-       <GlobalStyle />
+      <GlobalStyle />
       <Icons />
       <Routes>
         <Route path="/" element={<Layout />}>

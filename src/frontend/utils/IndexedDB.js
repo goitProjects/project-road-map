@@ -28,18 +28,18 @@ export async function fetchData() {
   });
 }
 
-async function saveData(data) {
-  try {
-    const db = await openDatabase();
-    const transaction = db.transaction(["RoadXSStore"], "readwrite");
-    const objectStore = transaction.objectStore("RoadXSStore");
-    const request = objectStore.add(data);
+// async function saveData(data) {
+//   try {
+//     const db = await openDatabase();
+//     const transaction = db.transaction(["RoadXSStore"], "readwrite");
+//     const objectStore = transaction.objectStore("RoadXSStore");
+//     const request = objectStore.add(data);
 
-    return new Promise((resolve, reject) => {
-      request.onsuccess = () => resolve('Data saved successfully');
-      request.onerror = (event) => reject('Error saving data: ' + event.target.errorCode);
-    });
-  } catch (error) {
-    throw new Error('Error opening database: ' + error);
-  }
-}
+//     return new Promise((resolve, reject) => {
+//       request.onsuccess = () => resolve('Data saved successfully');
+//       request.onerror = (event) => reject('Error saving data: ' + event.target.errorCode);
+//     });
+//   } catch (error) {
+//     throw new Error('Error opening database: ' + error);
+//   }
+// }
