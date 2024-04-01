@@ -16,7 +16,7 @@ jobs:
         AUTH_HOSTING_TOKEN: ${{secrets.AUTH_HOSTING_TOKEN}}
         DOMAIN_ID: ${{secrets.DOMAIN_ID}}
         SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-        PROJECT_FOLDER: "back-for-vue"
+        PROJECT_FOLDER: "road-map"
         SUBDOMAIN: "road-map.b"
         FULL_SUBDOMAIN: "road-map.b.goit.study"
         PORT: "3019"
