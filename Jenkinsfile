@@ -21,12 +21,12 @@ node("projecdep"){
                 env.ipStudServer = serverIP;
 
                 //env for github
-                env.branch = 'miminal';
+                env.branch = 'front';
                 env.gitCredential = 'pasha-goitacad-ssh';
-                env.gitUrl = 'git@github.com:goitacademy/devops-templates.git';
-                env.buildFolder = 'dist';
+                env.gitUrl = 'git@github.com:goitProjects/project-road-map.git';
+                env.buildFolder = 'build';
 
-                env.subdomain = 'minimal3'; 
+                env.subdomain = 'road-map.f'; 
                 
                 }
         
