@@ -9,7 +9,7 @@ import GlobalStyles from 'frontend/styles/globalStyles';
 import { Toastify } from 'frontend/components/Toastify/Toastify';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/project-road-map">
+  <BrowserRouter>
     <Provider store={store}>
       <App />
       <Toastify />
